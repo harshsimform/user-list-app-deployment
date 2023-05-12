@@ -3,12 +3,14 @@ import userSlice from "./UserSlice/UserSlice";
 import hoverUserSlice from "./HoverUserSlice/HoverUserSlice";
 import { TypedUseSelectorHook, useDispatch, useSelector } from "react-redux";
 
+const environment = import.meta.env;
+
 export const store = configureStore({
   reducer: {
     data: userSlice,
     hoverData: hoverUserSlice,
   },
-  devTools: false,
+  devTools: environment.VITE_APP_DEVTOOL_MODE,
 });
 
 // Getting the State type
