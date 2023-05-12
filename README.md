@@ -1,5 +1,7 @@
 ## User List React App - Staging Environment
 
+Staging Link:- [Click here](https://user-list-app-staging-environment.netlify.app/)
+
 → The staging environment, also known as the pre-production environment, is a replica of the production environment that is used to test the final version of the code before it is deployed to production. In this environment, developers can check for any bugs, errors, or inconsistencies that may arise when the code is run in a live environment. This environment should closely resemble the production environment in terms of hardware, software and data configuration.
 
 ### To start staging environment, run this command
